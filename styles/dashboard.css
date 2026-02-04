@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background: #073d6e;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pfp {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    color: #b9ddff;
+    margin-bottom: 10px;
+}
+
+.btn-side {
+    width: 100%;
+    padding: 10px;
+    background: #0d528f;
+    border: none;
+    color: white;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-side:hover {
+    background: #a879ff;
+}
+
+/* Main content */
+.main {
+    flex: 1;
+    padding: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn {
+    padding: 10px 15px;
+    background: #ce3131;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+}
+
+.search-btn, .delete-btn {
+    padding: 10px 15px;
+    background: #0d528f;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* Tabla */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.tabla th, .tabla td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.deleteRow {
+    background: #ce3131;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Opciones de eventos */
+#crudEventos input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn-edit {
+    background: #0d528f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-delete {
+    background: #ce3131;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
